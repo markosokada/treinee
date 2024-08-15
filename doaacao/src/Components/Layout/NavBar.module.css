@@ -1,0 +1,15 @@
+.list {
+    display: flex; /* Faz com que os itens da lista sejam exibidos em linha */
+    list-style: none; /* Remove os marcadores da lista padrão */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+  }
+  
+  .item {
+    margin-right: 20px; /* Espaçamento entre os itens, ajuste conforme necessário */
+  }
+  
+  .item:last-child {
+    margin-right: 0; /* Remove o espaçamento após o último item */
+  }
+  
