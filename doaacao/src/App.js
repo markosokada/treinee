@@ -11,11 +11,7 @@ import Footer from './Components/Layout/Footer';
 function App() {
   return (
     <Router>
-      <nav>
-      
-          <NavBar />
-        
-      </nav>
+      <NavBar />
       <Container customClass="min-height">
       <Routes>
           <Route path="/" element={<Home />} />
