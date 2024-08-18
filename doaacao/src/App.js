@@ -24,7 +24,7 @@ function App() {
           <Route path="/NovaCampanha" element={<NovaCampanha />} />
         </Routes>
       
-      <Footer />
+    <Footer />
     </Router>
   );
 }
