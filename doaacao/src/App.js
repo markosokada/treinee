@@ -17,7 +17,7 @@ function App() {
         
       </nav>
       <Container customClass="min-height">
-        <Routes>
+      <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/SignIN" element={<SignIN />} />
           <Route path="/SignUp" element={<SignUp />} />
