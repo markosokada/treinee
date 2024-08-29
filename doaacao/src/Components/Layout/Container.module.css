@@ -1,9 +1,10 @@
 .container{
-    width: 1200px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
+    position: sticky;
 }
 .min-height{
     min-height: 75%;

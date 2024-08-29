@@ -7,7 +7,8 @@ function NavBar(){
     return(
         <nav>
           <Container>
-            <Link to="/"> <img src={logo} alt="Doaacao"/></Link>
+            <Link to="/"> <img src={logo} alt="Doaacao" 
+            style={{ width: '100px', height: 'auto' }} /></Link>
             
           <ul className={styles.list}>
 
