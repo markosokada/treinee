@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
+
 import Home from './Components/Pages/Home';
-import Campanhas from './Components/Pages/Campanhas';
+import Projects from './Components/Pages/Projects';
 import SignIN from './Components/Pages/SignIn';
 import SignUp from './Components/Pages/SignUp';
 import Doacao from './Components/Pages/Doacao';
-import NovaCampanha from './Components/Pages/NovaCampanha';
+import NewProject from './Components/Pages/NewProject';
 
 import Container from './Components/Layout/Container';
 import NavBar from './Components/Layout/NavBar';
@@ -14,17 +15,18 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Container customClass="min-height" />
+      <Container customClass="min-height">
       <Routes>
-          <Route exactpath="/" element={<Home />} />
-          <Route path="/Campanhas" element={<Campanhas />} />
-          <Route path="/SignIN" element={<SignIN />} />
-          <Route path="/SignUp" element={<SignUp />} />
-          <Route path="/Doacao" element={<Doacao />} />
-          <Route path="/NovaCampanha" element={<NovaCampanha />} />
-        </Routes>
-      
-    <Footer />
+        <Route path="/" element={<Home />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/SignIN" element={<SignIN />} />
+        <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/Doacao" element={<Doacao />} />
+        <Route path="/NewProject" element={<NewProject />} />
+      </Routes>
+
+      </Container>
+      <Footer />
     </Router>
   );
 }
