@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "camapanha do agasalho"
+    },
+    {
+      "id": 2,
+      "name": "camapanha da sopa"
+    },
+    {
+      "id": 3,
+      "name": "camapanha da saude"
+    },
+    {
+      "id": 4,
+      "name": "camapanha de formatura"
+    },
+    {
+      "id": "f1d0",
+      "name": "gveffgbrfb",
+      "budget": "46",
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "camapanha do agasalho"
+    },
+    {
+      "id": 2,
+      "name": "camapanha da sopa"
+    },
+    {
+      "id": 3,
+      "name": "camapanha da saude"
+    },
+    {
+      "id": 4,
+      "name": "camapanha de formatura"
+    }
+  ]
+}
